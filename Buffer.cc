@@ -73,7 +73,7 @@ int main() {
     bool err = true;
     cout << "Pushing 1" << endl;
     b.push(1,err);
-    if(err) cout << "There was a problem" << endl;
+    if(err) cout << "There was a problem with the push" << endl;
     cout << "Pushing 2" << endl;
     b.push(2);
     cout << "Pushing 3" << endl;
@@ -82,7 +82,7 @@ int main() {
     if(err) cout << "There was a problem with the pop" << endl;
     cout << "Pushing 4" << endl;
     b.push(4,err);
-    if(err) cout << "There was a problem" << endl;
+    if(err) cout << "There was a problem with the push" << endl;
     cout << "Pushing 5" << endl;
     b.push(5);
     cout << "Popping " << b.pop(err) << endl;
