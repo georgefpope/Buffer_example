@@ -69,7 +69,6 @@ class Buffer {
 };
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     Buffer b(5);
     bool err = true;
     cout << "Pushing 1" << endl;
